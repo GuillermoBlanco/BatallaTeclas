@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Batalla de teclas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div id="values">
+            <h1>Batalla de teclas</h1>
+            <form method="get" action="jugar.html">
+                <fieldset>
+                 <legend>Selecting mode</legend>
+                 <p>      
+                    <input type = "radio"
+                           name = "mode"
+                           id = "modeNormal"
+                           value = "Normal"
+                           checked = "checked" />
+                    <label for = "modeNormal">Normal</label>
+
+                    <input type = "radio"
+                           name = "mode"
+                           id = "modeAgresivo"
+                           value = "Agresivo" />
+                    <label for = "modeAgresivo">Agresivo</label>
+
+                    <input type = "radio"
+                           name = "mode"
+                           id = "modeCarnivoro"
+                           value = "Carnivoro" />
+                    <label for = "modeCarnivoro">Carnívoro</label>
+                  </p> 
+                </fieldset>
+                <fieldset>
+                 <legend>Selecting level</legend>
+                 <p>      
+                    <input type = "radio"
+                           name = "level"
+                           id = "levelEasy"
+                           value = "1"
+                           checked = "checked" />
+                    <label for = "levelEasy">Fácil</label>
+
+                    <input type = "radio"
+                           name = "level"
+                           id = "levelHard"
+                           value = "2" />
+                    <label for = "levelHard">Difícil</label>
+                  </p>       
+                </fieldset>
+                <p><input type="submit" value="Jugar"></p>
+              </form>
+        </div>
+    </body>
+</html>
