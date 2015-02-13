@@ -8,6 +8,11 @@
     width: 300px;
     float: left;
 }
+#contador {
+    height: 100px;
+    width: 300px;
+    float: left;
+}
 #jug1 {
     float: left;
     width: 80px;
